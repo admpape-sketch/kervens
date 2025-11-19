@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>kervensbiznis - Contact</title>
+
+<style>
+body { 
+    font-family:Arial; 
+    background:#f5f5f5; 
+    margin:0; 
+    color: #222;
+}
+header{
+    background:#111827; 
+    padding:15px 5%; 
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+/* KONEKSYON NAVIGASYON */
+nav a {
+    color:white;
+    margin-left:15px;
+    text-decoration:none;
+    transition: 0.3s;
+}
+nav a:hover { color:#4ade80; }
+
+form{
+    width:90%;
+    max-width:450px;
+    margin:40px auto;
+    background:white;
+    padding:25px;
+    border-radius:8px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+button{
+    width:100%;
+    padding:12px;
+    background:#4ade80;
+    border:none;
+    color:white;
+    margin-top:15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+button:hover { background:#22c55e; }
+
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>kervensbiznis - Contact</h1>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="product.html">Produits</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<form>
+    <h2>Contactez-nous</h2>
+    <input type="text" placeholder="Votre Nom" required>
+    <input type="email" placeholder="Votre Email" required>
+    <textarea rows="4" placeholder="Votre Message" required></textarea>
+    <button>Envoyer</button>
+</form>
+
+<footer>
+    © 2025 kervensbiznis — Tous droits réservés.
+</footer>
+
+</body>
+</html>
